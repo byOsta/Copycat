@@ -1,4 +1,4 @@
-var exampleSocket = new WebSocket("ws://localhost:8888/Laputa");
+var exampleSocket = new WebSocket("ws://localhost:8888/Copycat");
 var listAddress = []
 
 exampleSocket.onmessage = function (event) {
